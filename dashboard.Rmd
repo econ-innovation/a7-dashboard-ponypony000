@@ -82,5 +82,11 @@ Column {data-width=350}
   theme_classic() 
 ```
 
+### Chart C
 
+```{r}
+ library(gt)
+library(DT)
+datatable(pubnum_w)
+```
 

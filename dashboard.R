@@ -71,7 +71,7 @@ ggplotly(p2,height = 400)
 
 ##5 表格
 library(gt)
-gt_tbl <- top10 %>%
-  gt(rowname_col = "names","group_label") %>%
-  tab_header(title = md("2022年Top10大学发文量"))%>%
+library(DT)
+datatable(top10)
+
 print(gt_tbl)
